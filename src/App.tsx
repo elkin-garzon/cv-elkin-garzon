@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react';
+import data from './data/data.json';
+import './styles/general.scss'
+// COMPONENTS
+import { UserData } from './components/UserData';
+import { StydyData } from './components/StydyData'
+
+//MODELS
+import { Information } from './models/information';
+import { Study } from './models/study';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [informaion, setInformaion] = useState<Information>(new Information());
+    const [studies, setStudies] = useState<Study[]>([])
+
+    useEffect(() => {
+        setInformaion(data.information)
+        setStudies(data.studies)
+    }, []);
+
+    return (
+        <div className="page">
+            <UserData dataUser={informaion} />
+            <StydyData studies={studies} />
+        </div>
+    );
 }
 
 export default App;

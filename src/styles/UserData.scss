@@ -1,0 +1,26 @@
+@import './vars.scss';
+
+.UserData{
+    h1{
+        text-align: center;
+    }
+    article{
+        figure{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                max-width: 150px;
+                border-radius: 50%;
+            }
+        }
+        p{
+            text-align: center;
+            padding: 10px;
+            a{
+                color: $orange;
+            }
+        }
+    }
+}
