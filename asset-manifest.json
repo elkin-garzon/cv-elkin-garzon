@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cv-elkin-garzon/static/css/main.24017d4d.css",
-    "main.js": "/cv-elkin-garzon/static/js/main.218e5d73.js",
+    "main.css": "/cv-elkin-garzon/static/css/main.9fac7123.css",
+    "main.js": "/cv-elkin-garzon/static/js/main.dabf52a3.js",
     "static/js/787.a71561b8.chunk.js": "/cv-elkin-garzon/static/js/787.a71561b8.chunk.js",
     "index.html": "/cv-elkin-garzon/index.html",
-    "main.24017d4d.css.map": "/cv-elkin-garzon/static/css/main.24017d4d.css.map",
-    "main.218e5d73.js.map": "/cv-elkin-garzon/static/js/main.218e5d73.js.map",
+    "main.9fac7123.css.map": "/cv-elkin-garzon/static/css/main.9fac7123.css.map",
+    "main.dabf52a3.js.map": "/cv-elkin-garzon/static/js/main.dabf52a3.js.map",
     "787.a71561b8.chunk.js.map": "/cv-elkin-garzon/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24017d4d.css",
-    "static/js/main.218e5d73.js"
+    "static/css/main.9fac7123.css",
+    "static/js/main.dabf52a3.js"
   ]
 }
