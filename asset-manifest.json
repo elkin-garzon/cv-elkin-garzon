@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cv-elkin-garzon/static/css/main.24017d4d.css",
-    "main.js": "/cv-elkin-garzon/static/js/main.eb5322f0.js",
+    "main.js": "/cv-elkin-garzon/static/js/main.7ac2eb7a.js",
     "static/js/787.a71561b8.chunk.js": "/cv-elkin-garzon/static/js/787.a71561b8.chunk.js",
     "index.html": "/cv-elkin-garzon/index.html",
     "main.24017d4d.css.map": "/cv-elkin-garzon/static/css/main.24017d4d.css.map",
-    "main.eb5322f0.js.map": "/cv-elkin-garzon/static/js/main.eb5322f0.js.map",
+    "main.7ac2eb7a.js.map": "/cv-elkin-garzon/static/js/main.7ac2eb7a.js.map",
     "787.a71561b8.chunk.js.map": "/cv-elkin-garzon/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24017d4d.css",
-    "static/js/main.eb5322f0.js"
+    "static/js/main.7ac2eb7a.js"
   ]
 }
