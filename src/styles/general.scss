@@ -88,13 +88,12 @@
                     position: absolute;
                     border-radius: 50%;
                     right: -23px;
-                    top: 20%;
-                    margin-top: -23px;
+                    top: 0;
                 }
 
                 &.right {
                     float: right;
-                    text-align: revert;
+                    text-align: left;
                     padding: 0 0 0 50px !important;
 
                     &::after {
@@ -106,6 +105,30 @@
                 p {
                     margin: 0 !important;
                 }
+            }
+
+
+            &.white{
+                .text-center {
+                    text-align: center;
+        
+                    h2 {
+                        color: $orange;
+                        background: $white;
+                    }
+                }
+                &:before {
+                    background: $white;
+                }
+                .timeline-panel {
+                      
+                    &::after {
+                        background: $white;
+                    }
+    
+                   
+                }
+
             }
         }
 
@@ -136,6 +159,9 @@
                         left: -15px !important;
                         width: 30px;
                         height: 30px;
+                    }
+                    &.right {
+                        padding: 0 0 35px 50px !important;                        
                     }
                 }
             }

@@ -11,19 +11,25 @@ export function ExperienceData(
 
     if (experiences.length === 0) {
         return (
-            <div className="contentSection ExperienceData">
+            <div className="contentSection">
                 <h2>sin experiencias</h2>
             </div>
         )
     }
     return (
-        <div className="contentSection ExperienceData">
-            <h2>Experiencia laboral</h2>
-            <div className="ExperienceDetail">
-                {experiences.map((experience: Experience) => (
-                    <Experiencedetail key={experience.id} experience={experience} />
-                ))}
-            </div>
+        <div className="contentSection">
+            <section className="sub-content ExperienceData">
+                <section className="timeline white">
+                    <section className="text-center">
+                        <h2>Experiencia laboral</h2>
+                    </section>
+                    <div className="row">
+                        {experiences.map((experience: Experience, i:number) => (
+                            <Experiencedetail key={experience.id} experience={experience} position={i}/>
+                        ))}
+                    </div>
+                </section>
+            </section>
         </div>
     )
 }
