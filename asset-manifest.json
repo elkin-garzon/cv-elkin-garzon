@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/elkin-garzon/cv-elkin-garzon/static/css/main.24017d4d.css",
+    "main.js": "/elkin-garzon/cv-elkin-garzon/static/js/main.cd1998d8.js",
+    "static/js/787.a71561b8.chunk.js": "/elkin-garzon/cv-elkin-garzon/static/js/787.a71561b8.chunk.js",
+    "index.html": "/elkin-garzon/cv-elkin-garzon/index.html",
+    "main.24017d4d.css.map": "/elkin-garzon/cv-elkin-garzon/static/css/main.24017d4d.css.map",
+    "main.cd1998d8.js.map": "/elkin-garzon/cv-elkin-garzon/static/js/main.cd1998d8.js.map",
+    "787.a71561b8.chunk.js.map": "/elkin-garzon/cv-elkin-garzon/static/js/787.a71561b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24017d4d.css",
+    "static/js/main.cd1998d8.js"
+  ]
+}
