@@ -2,29 +2,28 @@ import { Experience } from "../models/experience"
 import { Experiencedetail } from "./Experiencedetail"
 
 interface ExperiencesProps {
-	experiences: Experience[]
+    experiences: Experience[]
 }
 
 export function ExperienceData(
-	{ experiences }: ExperiencesProps
+    { experiences }: ExperiencesProps
 ) {
 
-	if (experiences.length === 0) {
+    if (experiences.length === 0) {
         return (
             <div className="ExperienceData contentSection">
                 <h2>sin experiencias</h2>
             </div>
         )
     }
-	return (
-		<div className="ExperienceData contentSection">
+    return (
+        <div className="ExperienceData contentSection">
             <h2>Experiencia laboral</h2>
-            <div>
-			{experiences.map((experience: Experience) => (
+            <div className="ExperienceDetail">
+                {experiences.map((experience: Experience) => (
                     <Experiencedetail key={experience.id} experience={experience} />
                 ))}
-			
             </div>
         </div>
-	)
+    )
 }

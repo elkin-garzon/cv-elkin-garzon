@@ -1,4 +1,4 @@
-import { ExperienceInterface } from "../interfaces/Experience.interface";
+import { ExperienceInterface } from "../interfaces/experience.interface";
 
 export class Experience implements ExperienceInterface {
     id!: number;

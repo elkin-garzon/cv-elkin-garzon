@@ -7,7 +7,6 @@ interface ExperienceProps {
 export function Experiencedetail(
     { experience }: ExperienceProps
 ) {
-    console.log(experience)
     return (
         <section className="Experiencedetail">
             <h3>{experience.enterprice}</h3>

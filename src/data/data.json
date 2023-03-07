@@ -116,79 +116,57 @@
         {
             "id": 2,
             "technology": "javascript",
-            "percentage": 80,
-            "created_add": "2022-12-12T16:12:19.000+00:00",
-            "updated_add": null
+            "percentage": 80
         },
         {
             "id": 3,
             "technology": "html",
-            "percentage": 80,
-            "created_add": "2022-12-13T18:36:21.000+00:00",
-            "updated_add": null
+            "percentage": 80
         },
         {
             "id": 4,
             "technology": "css",
-            "percentage": 70,
-            "created_add": "2022-12-13T18:36:27.000+00:00",
-            "updated_add": null
+            "percentage": 70
         },
         {
             "id": 5,
             "technology": "angular",
-            "percentage": 90,
-            "created_add": "2022-12-13T18:36:34.000+00:00",
-            "updated_add": null
+            "percentage": 90
         },
         {
             "id": 6,
             "technology": "MySql",
-            "percentage": 60,
-            "created_add": "2022-12-13T18:36:46.000+00:00",
-            "updated_add": null
+            "percentage": 60
         },
         {
             "id": 7,
             "technology": "NodeJs",
-            "percentage": 70,
-            "created_add": "2022-12-13T18:37:01.000+00:00",
-            "updated_add": null
+            "percentage": 70
         },
         {
             "id": 8,
             "technology": "git",
-            "percentage": 80,
-            "created_add": "2022-12-13T18:37:12.000+00:00",
-            "updated_add": null
+            "percentage": 80
         },
         {
             "id": 9,
             "technology": "docker",
-            "percentage": 40,
-            "created_add": "2022-12-13T18:37:22.000+00:00",
-            "updated_add": null
+            "percentage": 40
         },
         {
             "id": 10,
             "technology": "SEO",
-            "percentage": 60,
-            "created_add": "2022-12-13T18:39:22.000+00:00",
-            "updated_add": null
+            "percentage": 60
         },
         {
             "id": 12,
             "technology": "Java",
-            "percentage": 30,
-            "created_add": "2022-12-13T18:40:09.000+00:00",
-            "updated_add": null
+            "percentage": 30
         },
         {
             "id": 11,
             "technology": "Spring Boot",
-            "percentage": 30,
-            "created_add": "2022-12-13T18:40:09.000+00:00",
-            "updated_add": null
+            "percentage": 30
         }
     ],
     "studies": [
