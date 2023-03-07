@@ -1,26 +1,27 @@
 @import './vars.scss';
 
 .UserData{
-    h1{
+    figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 150px;
+            border-radius: 50%;
+        }
+    }
+    a{
+        color: $white;
+        display: block;
+        width: 100%;
         text-align: center;
+        margin: 10px 0;
     }
     article{
-        figure{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            img{
-                max-width: 150px;
-                border-radius: 50%;
-            }
-        }
         p{
-            text-align: center;
-            padding: 10px;
-            a{
-                color: $orange;
-            }
+           
+            
         }
     }
 }

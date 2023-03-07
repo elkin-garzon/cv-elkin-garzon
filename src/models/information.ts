@@ -8,4 +8,5 @@ export class Information implements InformationInterface {
     mail!: string;
     birthDate!: string;
     photo!: string;
+    text!:string
 }

@@ -7,7 +7,7 @@
     },
     "profile": {
         "id": 1,
-        "text": "Tecnólogo en desarrollo web multimedia e Ingeniero de sistemas, con experiencia en cargos de desarrollador de páginas y sitios web con angular, competencias para desarrollar procesos de estructura de, ANGULAR 2+, HTML, CSS, BOOTSTRAP, NODE JS, JAVASCRIPT, JQUERY GIT, DOCKER, manejo de de metodologías ágiles, experiencia en responsive web design adaptándolo a diferentes resoluciones de pantalla según diseño establecido.",
+        
         "created_add": "2022-12-12T15:42:59.000+00:00",
         "updated_add": "2022-12-13T18:35:58.000+00:00"
     },
@@ -18,12 +18,13 @@
         "mail": "elkingarzonyaya@gmail.com",
         "maskMail": "mailto:elkingarzonyaya@gmail.com",
         "birthDate": "06-11-1990",
-        "photo": "https://media.licdn.com/dms/image/D4E03AQG_Kb4vya282Q/profile-displayphoto-shrink_200_200/0/1675099073000?e=1683158400&v=beta&t=incew3XUtAaha9KO3RJUF4S-yCFvNvswbBUtGB1P2HE"
+        "photo": "https://media.licdn.com/dms/image/D4E03AQG_Kb4vya282Q/profile-displayphoto-shrink_200_200/0/1675099073000?e=1683158400&v=beta&t=incew3XUtAaha9KO3RJUF4S-yCFvNvswbBUtGB1P2HE",
+        "text": "Tecnólogo en desarrollo web multimedia e Ingeniero de sistemas, con conocimientos en java - spring boot, mysql, php, laravel, javascript, node js, express js,  git, angular 4+, html, css, sass, responsive web design, metodologías ágiles, SEO, he tenido la oportunidad de trabajar para clientes de diversos sectores, siendo mi fuerte del desarrollo front-end con angular, consumiendo servicios de backs construidos con .net, node js o spring boot, siendo capaz de hacer ajustes a servicios en express js o spring boot."
     },
     "experiences": [
         {
             "id": 3,
-            "enterprice": "SERVIGUIDE",
+            "enterprice": "Serviguide",
             "position": "Desarrollador front end",
             "dateInit": "2022-04-01",
             "dateEnd": "2022-11-01",

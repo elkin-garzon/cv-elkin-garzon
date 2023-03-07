@@ -11,13 +11,13 @@ export function ExperienceData(
 
     if (experiences.length === 0) {
         return (
-            <div className="ExperienceData contentSection">
+            <div className="contentSection ExperienceData">
                 <h2>sin experiencias</h2>
             </div>
         )
     }
     return (
-        <div className="ExperienceData contentSection">
+        <div className="contentSection ExperienceData">
             <h2>Experiencia laboral</h2>
             <div className="ExperienceDetail">
                 {experiences.map((experience: Experience) => (
