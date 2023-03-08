@@ -15,39 +15,25 @@
         justify-content: space-between;
     }
 
-    input[type="range"] {
-        -webkit-appearance: none;
-        margin-right: 15px;
-        width: 180px;
-        height: 7px;
-        background: #cbccd0;
-        border-radius: 3px;
-        border: none;
-        background-image: linear-gradient(#FF9000, #FF9000);
-        background-size: 50% 100%;
-        background-repeat: no-repeat;
+    progress {
         width: 100%;
-    }
-    
-    input[type="range"]::-webkit-slider-thumb {
+        border-radius: 5px;
         -webkit-appearance: none;
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-        
-        cursor: pointer;
-        transition: background .3s ease-in-out;
     }
-    
-    input[type=range]::-webkit-slider-runnable-track {
-        -webkit-appearance: none;
-        box-shadow: none;
-        border: none;
-        background: transparent;
+
+    progress::-webkit-progress-bar {
+        border-radius: 5px;
+        background: $gray2;
+    }
+
+    progress::-webkit-progress-value {
+        background-color: $orange;
+        border-radius: 5px;
     }
 }
+
 @media (max-width: $layout-breakpoint-small) {
-    .progress-wrap{
+    .progress-wrap {
         padding: 0 30px;
     }
 }

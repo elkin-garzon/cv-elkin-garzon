@@ -16,7 +16,7 @@ export function KnowledgesDetail(
                     <span>{Knowledg.percentage} %</span>
                 </h3>
                 <div>
-                    <input type="range" min="0" max="100" disabled value={Knowledg.percentage} style={{ backgroundSize: Knowledg.percentage + "%" }} />
+                    <progress id="file" max="100" value={Knowledg.percentage} />
                 </div>
             </div>
         </div>
