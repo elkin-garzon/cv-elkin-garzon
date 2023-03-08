@@ -1,5 +1,4 @@
 import { Study } from "../models/study";
-import '../styles/StydyData.scss';
 import { StudyDataDeatil } from "./StudyDataDeatil";
 
 interface StudiesProps {
